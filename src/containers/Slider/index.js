@@ -18,7 +18,7 @@ const Slider = () => {
   // };
   const nextCard = () => {
     setTimeout(() => {
-      if (byDateDesc && byDateDesc.length > 0) { // ✅ التحقق من أن البيانات موجودة
+      if (byDateDesc && byDateDesc.length > 0) { 
         setIndex(index < byDateDesc.length - 1 ? index + 1 : 0);
       }
     }, 5000);
